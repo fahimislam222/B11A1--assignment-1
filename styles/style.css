@@ -114,13 +114,12 @@
 
 
 .card{
-  /* display: block; */
   display: flex;
   gap: 24px;
   width: 1280px;
   height: 244px;
   text-align: justify;
-  justify-content: center;
+  /* justify-content: center; */
   
   
 }

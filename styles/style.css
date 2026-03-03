@@ -8,6 +8,9 @@
 
 
 /* shared styles */
+
+
+
 /* title */
 .title-font{
   font-size: 40px;
@@ -32,6 +35,7 @@
   padding: 17px 34px;
   background-color: #006A50;
   font-weight: 600;
+  border: none;
 }
 
 /* Nav */
@@ -39,7 +43,7 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  align-items: normal;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -53,6 +57,8 @@
 }
 
 .nav-btn{
+  font-size: 20px;
+  font-weight: bold;
   color: #006A50;
   width: 116px;
   height: 52px;
@@ -65,18 +71,31 @@
 /* Banner */
 .banner{
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   background-color: #C6E4D6;
-  margin: 0 160px;
   width: 1280px;
   height: 560px;
   border-radius: 24px;
-  padding: 50px 50px 50px;
+  /* padding: 56px 59px 50px; */
   gap: 64px;
   
   
 }
+
+.banner-text{
+  height: 326px;
+  width: 622px;
+  padding: 117px 0px 117px 59px;
+  
+}
+
+.banner-img{
+  width: 474px;
+  height: 400px;
+  padding: 80px 59px 80px 0px;
+}
+
 
 .banner-sub{
   font-size: 24;
@@ -84,21 +103,15 @@
   opacity: 50%;
 }
 
-.banner-text{
+.banner-title{
   font-size: 40px;
   font-weight: bold;
-  justify-content: left;
+  
 }
 
-.banner-img{
-  padding: 80px 60px 64px;
-}
 
 /* Card style */
-.card-main-title{
-  margin-top: 80px;
-  margin-bottom: 32px;
-}
+
 
 .card{
   /* display: block; */
@@ -107,13 +120,13 @@
   width: 1280px;
   height: 244px;
   text-align: justify;
-  border-radius: 16px;
+  justify-content: center;
   
   
 }
 
 .about-card{
-  justify-content: center;
+
   width: 302px;
   height: 244px;
   background-color: white;
@@ -124,7 +137,8 @@
 }
 
 /* Main Style */
-main{
-  margin: 0 160px
+.main{
+  max-width: 1140px;
+  margin: 0 auto;
 }
 

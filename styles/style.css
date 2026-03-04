@@ -321,3 +321,68 @@
   text-align: center;
   
 }
+
+/* News Letter */
+
+.news-letter{
+  width: 1280px;
+  height: 395px;
+  background-color: #C6E4D6;
+  
+  text-align: center;
+  border-radius: 24px;
+  
+
+}
+
+.news-letter-card{
+  padding: 80px 265px;
+}
+
+.news-letter-container{
+  display: flex;
+  width: 600px;
+  height: 55px;
+  align-items: center;
+  
+  
+
+}
+
+.email{
+  background-color: white;
+    width: 600px;
+  height: 55px;
+  border: none;
+}
+
+.news-letter-btn{
+  background-color: #006A50;
+  color: white;
+  width: 150px;
+  height: 56px;
+  font-weight: bold;
+  border: none;
+  border-radius: mixed;
+
+}
+
+.news-letter-btn:hover{
+  color: white;
+  background-color: #FFC239;
+}
+
+/* Footer */
+.footer-center{
+  background-color: white;
+  text-align: center;
+  
+}
+
+.logo{
+  display: flex;
+  gap: 23px;
+  
+  margin-top: 24px;
+  justify-content: center;
+}

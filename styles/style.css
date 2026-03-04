@@ -274,6 +274,11 @@
   border-radius: 8px;
 }
 
+.rm-news:hover{
+  color: white;
+  background-color: #FFC239;
+}
+
 /* Today Donate */
 
 .money-container{
@@ -295,6 +300,11 @@
   padding: 40px 40px;
   background-color: white;
  } 
+
+ .tk:hover{
+  color: black;
+  background-color: #006A50;
+ }
  
  .other{
   align-items: center;

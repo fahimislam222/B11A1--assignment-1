@@ -234,7 +234,7 @@
   height: 402px;
   border-radius: 24px;
   align-items: center;
-
+}
 
 .date-time{
   display: flex;
@@ -272,4 +272,37 @@
   background-color: #006A50;
   border: none;
   border-radius: 8px;
+}
+
+/* Today Donate */
+
+.money-container{
+  display: flex;
+  gap: 24px;
+  width: 1071px;
+  height: 128px;
+  margin-bottom: 32px;
+  
+}
+
+.tk{
+  font-size: 40px;
+  width: 200px ;
+  height: 70px;
+  border-radius: 16px;
+  align-content: center;
+  box-shadow: 0px 4px 4px 0px rgba(14, 14, 14, 0.15);
+  padding: 40px 40px;
+  background-color: white;
+ } 
+ 
+ .other{
+  align-items: center;
+  text-align: center;
+
+
+ }
+
+.money-donate{
+  margin-bottom: 32px;
 }
